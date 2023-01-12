@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+    }
+}
+
+include(":leaky-flow-host")
+include(":leaky-flow-js")
+include(":leaky-flow-shared")
